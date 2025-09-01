@@ -15,6 +15,10 @@ def contatos():
 def usuarios(nome_usuario):
     return render_template("usuarios.html", nome_usuario=nome_usuario)
 
+@app.route("/novarota")
+def novarota():
+    return "Teste commit e atualização no render"
+
 #Coloca site no ar
 if __name__ == "__main__":
    app.run()
