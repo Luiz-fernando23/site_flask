@@ -17,4 +17,4 @@ def usuarios(nome_usuario):
 
 #Coloca site no ar
 if __name__ == "__main__":
-   app.run(debug=True)
+   app.run()
