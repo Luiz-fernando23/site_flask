@@ -1,13 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Contatos</title>
+    <title>Contatos - Minha Biblioteca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #357ABD;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .contact-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: inline-block;
+            padding: 20px;
+            min-width: 300px;
+        }
+
+        .contact-card h2 {
+            margin-top: 0;
+            color: #4a90e2;
+        }
+
+        footer {
+            background-color: #357ABD;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <p>Nossos contatos são:</p>
-    <p>E-mail: luiz.vera@teste.com</p>
-    <p>Telefone: (11958754572)</p>
+
+    <header>
+        <h1>📚 Minha Biblioteca</h1>
+        <p>Entre em contato conosco</p>
+    </header>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/Contatos">Contatos</a>
+        <a href="/usuarios/teste">Usuários</a>
+    </nav>
+
+    <div class="container">
+        <div class="contact-card">
+            <h2>Contato</h2>
+            <p><strong>Email:</strong> luiz.vera@teste.com</p>
+            <p><strong>Telefone:</strong> (11) 95875-4572</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Minha Biblioteca - Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
-

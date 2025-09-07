@@ -1,12 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <title>Biblioteca Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #357ABD;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .book-card {
+            display: inline-block;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 200px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .book-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .book-card h3 {
+            margin: 10px 0 5px 0;
+        }
+
+        .book-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer {
+            background-color: #357ABD;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <p>Está é minha pagina inicial:</p>
+
+    <header>
+        <h1>📚 Minha Biblioteca</h1>
+        <p>Bem-vindo ao seu app de livros</p>
+    </header>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/Contatos">Contatos</a>
+        <a href="/usuarios/teste">Usuários</a>
+    </nav>
+
+    <div class="container">
+        <h2>Livros em destaque</h2>
+        <div class="book-card">
+            <img src="https://picsum.photos/200/250?random=1" alt="Livro 1">
+            <h3>Livro A</h3>
+            <p>Descrição breve do livro A.</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://picsum.photos/200/250?random=2" alt="Livro 2">
+            <h3>Livro B</h3>
+            <p>Descrição breve do livro B.</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://picsum.photos/200/250?random=3" alt="Livro 3">
+            <h3>Livro C</h3>
+            <p>Descrição breve do livro C.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Minha Biblioteca - Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
-
-
